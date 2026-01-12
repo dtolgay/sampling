@@ -41,19 +41,28 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 ## Part A - Survey Design: 
 
 The number of your chosen topic: `#`
-
+Number 3
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to elicit the possible relation between the music taste and age. This survey is going to put forward the differences between the music taste of different individuals at different ages. Furthermore, this study aims to probe the change of music taste with age for the same individual.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+target population: The Canadian population who listens music
+sampling frame: Students, staff and faculty of the University of Toronto
+sampling units: The email adresses of the individuals studying or working at the University of Toronto drawn from the university list. 
+overall sampling strategy: Strafying random sampling based on the age: (18-24, 25-34, 35–44, 45–54, 55+). This is required to prevent the overrepresentation of the young individuals. The number of people answered in each age strata can be used to determine the weights that is going to be assigned for each strata.
+Observational units: age, genre selection, change of taste of music with age for the same individual, music taste with age for different individuals at different age. 
 ```
 
 Your 5-10 question survey:
 ```
+1. What is your age? 
+2. How often do you listen music?
+    a. 
+
+
 1. write your question here...
 2. write your question here...
 3. write your question here...
