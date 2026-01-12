@@ -59,20 +59,42 @@ Observational units: age, genre selection, change of taste of music with age for
 Your 5-10 question survey:
 ```
 1. What is your age? 
-2. How often do you listen music?
-    a. 
+2. Which music genres do you currently like the most? Select up to five, then rank them from most to least preferred. 
+    a. Pop
+    b. Rock 
+    c. Hip-hop / Rap 
+    d. Electronic
+    e. Jazz
+    f. Blues
+    g. Classic
+    h. Folk
+    i. Metal 
+    j. Latin
+    k. K-pop
+    l. Soundtrack / Film Music 
+    m. Religious / Spiritual
+3. Would you order the genres differently if this question is asked to your five years ago? Please indicate your answer in between 0 to 10. Higher number indicates more significant change. 
+4. If you answered question 3 bigger than 5, please select up to five music genres, then rank them according to most to least preffered five years ago. 
 
+5. If you are older than 25 please answer the following question. Thinking back to aroung age 18-20, which music genres did you like the most at that time? Please select up to five music genres, then rank them according to most to least preffered. 
+    if you don't remember click. "I don’t remember clearly."
 
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+6. If you are older than 35 please answer the following question. Thinking age back to 25 - 30, which music genres did you like the most at that time? Please select up to five music genres, then rank them according to most to least preffered. 
+    if you don't remember click. "I don’t remember clearly."
+    if your music taste didn't differ from your answer in question 2 click. "My preferences were the same as now."
+
+7. If you are older than 45 please answer the following question. Thinking age back to 35 - 40, which music genres did you like the most at that time? Please select up to five music genres, then rank them according to most to least preffered. 
+    if you don't remember click. "I don’t remember clearly"
+    if your music taste didn't differ from your answer in question 2 click. "My preferences were the same as now."
+
+8. If you are older than 55 please answer the following question. Thinking age back to 45 - 50, which music genres did you like the most at that time? Please select up to five music genres, then rank them according to most to least preffered. 
+    if you don't remember click. "I don’t remember clearly"
+    if your music taste didn't differ from your answer in question 2 click. "My preferences were the same as now."
+
+9. If you are older than 65 please answer the following question. Thinking age back to 55 - 60, which music genres did you like the most at that time? Please select up to five music genres, then rank them according to most to least preffered. 
+    if you don't remember click. "I don’t remember clearly"
+    if your music taste didn't differ from your answer in question 2 click. "My preferences were the same as now."
+
 ```
 
 ## Part B - Survey Evaluation:
