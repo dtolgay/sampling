@@ -102,7 +102,70 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+This is a probability sampling with multi-stage sampling composed of two-stages. They initially used stratified sampling at the province / census metropolitan area level with 27 strata. Secondly a rejective sampling approach is used for non-volunteers.
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234"
+
+2. Sample size
+The sample size is 50 x 10^3 units. 40 x 10^3 invitation letters were sent. Amond them 24 x 10^3 questionnaries are expected. 
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234"
+
+3. Target population
+Target population is all persons 15 years of age and older living in provinces of Canada excluding full-time residents of institutions. 
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234"
+
+4. Sampling frame
+The sampling frame combines landline and cellular telephone numbers.  
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234"
+
+5. Survey mode(s) 
+The communicated with participants through their phone number. 
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234"
+
+6. Timeline
+~4 months. From 2018-09-04 to 2018-12-28. 
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234"
+
+7. Response rate
+41.9%
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
+8. Weights
+The corresponding weights for every individual is presented in the microdata file (file can be found at "https://abacus.library.ubc.ca/dataset.xhtml;jsessionid=676fc205475690154d0902cbd7c3?persistentId=hdl%3A11272.1%2FAB2%2FGBFDYG&version=&q=&fileTypeGroupFacet=&fileAccess=&fileSortField=size"). The weights are selected such that weighted income distribution of General Social Survey - Giving, Volunteering and Participating survey matched the 2017 CIS distribution by province. 
+
+To reduce the design based variance the bootstrapped weights have been created in addition to weights presented in the microdata. 
+
+Reference: From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234" 
+
+9. Data processing
+They processed their data based on  Social Survey Processing Environment (SSPE) set of generalized processing step. They did edits on both macro and micro levels. There were checks on the integrity of the data based on the family relationships. They checked respondents age against the repondents birth date. 
+The error detection was done using the Computer-Assisted Telephone Interviewing (CATI) system. The CATI system selected the order of questions and identified out of range values. If CATI system is not enough to debug the error, the head office manually tried to resolve the situation. 
+
+10. Cleaning, imputation, etc
+All imputations are made were made based on the score function. The score of the respondent is compared with the mean of the respondents. The donor closest to the score of the non-respondent was used to fill the missing value of the non-repondent.
+Imputation has done in 9 steps. Imputing the personal and family income. Imputing the formal volunteering variables in the master file. Imputing the informal volunteering variables in the master file. Imputing variables in the donation file and the solicitation methods in the master file.  
+
+Some information that is not present in previous surveys such as persinal income were imputed. 
+
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234" 
+
+11. Sources of error
+Non-sampling error
+Non-response bias 
+Coverage error
+
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234" 
+
+12. Limitations, known biases, etc
+The households without telephones and telephone services are not covered with this survey. Therefore part of the target population is was excluded from the surveyed population. 
+There is no limitation or bias is presented for non-responses. They mention the weighting should solve the biassing. 
+Even though the coverage was improved it is based on several linked sources such as census, administrative data and billing files. The household which their phone number data is not available in those links are excluded from the survey. 
+
+From "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234" 
+
+13. Link to documentation and any additional sources used
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+https://abacus.library.ubc.ca/dataset.xhtml;jsessionid=676fc205475690154d0902cbd7c3?persistentId=hdl%3A11272.1%2FAB2%2FGBFDYG&version=&q=&fileTypeGroupFacet=&fileAccess=&fileSortField=size
 ```
 
 ## Rubric
